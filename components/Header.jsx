@@ -29,7 +29,7 @@ export default function Header(){
         duration: Number(duration) }
 
     return(<header id ="header">
-            <img src = "investment-calculator-logo.PNG"></img>
+            <img src = "/investment-calculator-logo.png"></img>
             <h1> Investment Calculator</h1>
             <div id ='user-input' >
                 <div className="input-group">
