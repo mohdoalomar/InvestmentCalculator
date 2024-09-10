@@ -12,8 +12,7 @@ const initialInvestment = Number(investment.initialInvestment);
             <tbody>
            {calculateInvestmentResults(investment).map( yearData => {
             const totalIntreset = yearData.valueEndOfYear - (yearData.year * yearData.annualInvestment + initialInvestment);
-            console.log(totalIntreset);
-            console.log(initialInvestment);
+     
             const totalAmountInvested = yearData.valueEndOfYear - totalIntreset;
             return <tr key={yearData.year}>
                 <td>{yearData.year}</td>
