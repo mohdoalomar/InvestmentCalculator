@@ -27,11 +27,9 @@ export default function Header(){
          annualInvestment: Number(annual),
          expectedReturn:  Number(expected),
         duration: Number(duration) }
-  //  console.log(initial,annual,expected,duration);
-    
-    //console.log(initial+annual+expected+duration)
+
     return(<header id ="header">
-            <img src = "..\public\investment-calculator-logo.png"></img>
+            <img src = "investment-calculator-logo.png"></img>
             <h1> Investment Calculator</h1>
             <div id ='user-input' >
                 <div className="input-group">
