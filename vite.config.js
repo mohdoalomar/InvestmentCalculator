@@ -11,7 +11,7 @@ export default defineConfig({
         short_name: "Investment Calculator",
         description:
           "Investment Calculator - Your go-to app for all your Investment needs.",
-        start_url: "",
+        start_url: "/InvestmentCalculator",
         display: "standalone",
         background_color: "#303b37",
         theme_color: "#c2e9e0",
